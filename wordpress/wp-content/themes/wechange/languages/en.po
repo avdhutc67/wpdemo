@@ -1,0 +1,825 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WeChange\n"
+"POT-Creation-Date: 2015-07-30 19:42+0300\n"
+"PO-Revision-Date: 2015-07-30 19:42+0300\n"
+"Last-Translator: Radu Cretu <ameriza@gmail.com>\n"
+"Language-Team: Radu Cretu <ameriza@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:11
+#, php-format
+msgid "1"
+msgid_plural "%1$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:28
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:29
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:30
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:35
+msgid "Comments are closed."
+msgstr ""
+
+#: content-missing.php:5
+msgid "The Page you are looking for cannot be found!"
+msgstr ""
+
+#: extend/array.meta-options.php:7
+msgid "Hero Page"
+msgstr ""
+
+#: extend/array.meta-options.php:14
+msgid "Hero Image"
+msgstr ""
+
+#: extend/array.meta-options.php:15
+msgid "Choose your featured image, that will appear at the top of the page"
+msgstr ""
+
+#: extend/array.meta-options.php:21
+msgid "Hero Tilt Image"
+msgstr ""
+
+#: extend/array.meta-options.php:22
+msgid "Choose your featured image, that will appear when you scroll down"
+msgstr ""
+
+#: extend/array.meta-options.php:31
+msgid "Petition"
+msgstr ""
+
+#: extend/array.meta-options.php:38
+msgid "Petition Recipients Title"
+msgstr ""
+
+#: extend/array.meta-options.php:39
+msgid ""
+"Enter your text for the petition recipients list (Example: This Petition "
+"will be sent to:)"
+msgstr ""
+
+#: extend/array.meta-options.php:45
+msgid "Petition Recipients"
+msgstr ""
+
+#: extend/array.meta-options.php:53
+msgid "Background"
+msgstr ""
+
+#: extend/array.meta-options.php:60
+msgid "Pre-Defined Backgrounds"
+msgstr ""
+
+#: extend/array.meta-options.php:62
+msgid "Empty Background"
+msgstr ""
+
+#: extend/array.meta-options.php:63 framework/classes/class.page.bg.php:43
+msgid "Lined Paper"
+msgstr ""
+
+#: extend/array.meta-options.php:64 framework/classes/class.page.bg.php:44
+msgid "Confectionary"
+msgstr ""
+
+#: extend/array.meta-options.php:65 framework/classes/class.page.bg.php:45
+msgid "Notebook"
+msgstr ""
+
+#: extend/array.meta-options.php:66 framework/classes/class.page.bg.php:46
+msgid "Natural Paper"
+msgstr ""
+
+#: extend/array.meta-options.php:67 framework/classes/class.page.bg.php:47
+msgid "Soft Paper"
+msgstr ""
+
+#: extend/array.meta-options.php:68 framework/classes/class.page.bg.php:48
+msgid "Neutral Grid"
+msgstr ""
+
+#: extend/array.meta-options.php:71
+msgid "Choose one of the five pre-designed backgrounds for your letter"
+msgstr ""
+
+#: extend/array.meta-options.php:80
+msgid "Supporters Page"
+msgstr ""
+
+#: extend/array.meta-options.php:87
+msgid "Cover Image"
+msgstr ""
+
+#: extend/array.meta-options.php:88
+msgid "Choose your cover image. You need one even if you use a video cover."
+msgstr ""
+
+#: extend/array.meta-options.php:94
+msgid "External Video Link"
+msgstr ""
+
+#: extend/array.meta-options.php:95
+msgid "Vimeo or YouTube"
+msgstr ""
+
+#: extend/array.meta-options.php:101
+msgid "Video Background MP4 File"
+msgstr ""
+
+#: extend/array.meta-options.php:107
+msgid "Video Background WEBM File"
+msgstr ""
+
+#: extend/array.meta-options.php:113
+msgid "Video Background OGG File"
+msgstr ""
+
+#: extend/array.options.php:4
+msgid "Light"
+msgstr ""
+
+#: extend/array.options.php:5
+msgid "Light Italic"
+msgstr ""
+
+#: extend/array.options.php:6 extend/array.options.php:12
+msgid "Normal"
+msgstr ""
+
+#: extend/array.options.php:7
+msgid "Italic"
+msgstr ""
+
+#: extend/array.options.php:8
+msgid "Bold"
+msgstr ""
+
+#: extend/array.options.php:9
+msgid "Bold Italic"
+msgstr ""
+
+#: extend/array.options.php:13
+msgid "Capitalize"
+msgstr ""
+
+#: extend/array.options.php:14
+msgid "Uppercase"
+msgstr ""
+
+#: extend/array.options.php:15
+msgid "Small Caps"
+msgstr ""
+
+#: extend/array.options.php:53
+msgid "Site Title & Taglines"
+msgstr ""
+
+#: extend/array.options.php:62
+msgid "Header"
+msgstr ""
+
+#: extend/array.options.php:73
+msgid "Tagline"
+msgstr ""
+
+#: extend/array.options.php:83
+msgid "Site Logo"
+msgstr ""
+
+#: extend/array.options.php:87
+msgid "Upload both retina and non-retina versions of your logo"
+msgstr ""
+
+#: extend/array.options.php:90
+msgid "Logo"
+msgstr ""
+
+#: extend/array.options.php:94
+msgid "The logo will appear at the top-right corner of your site"
+msgstr ""
+
+#: extend/array.options.php:97
+msgid "Retina Logo @2x"
+msgstr ""
+
+#: extend/array.options.php:101
+msgid "Be sure that this complies with the retina standards"
+msgstr ""
+
+#: extend/array.options.php:110
+msgid "Text Color"
+msgstr ""
+
+#: extend/array.options.php:115
+msgid "This color is used for general text color"
+msgstr ""
+
+#: extend/array.options.php:118
+msgid "Background Color"
+msgstr ""
+
+#: extend/array.options.php:123
+msgid "This color is used as background color"
+msgstr ""
+
+#: extend/array.options.php:126
+msgid "Primary Color"
+msgstr ""
+
+#: extend/array.options.php:131
+msgid "This color is used for buttons, links and visual elements"
+msgstr ""
+
+#: extend/array.options.php:139
+msgid "Typography"
+msgstr ""
+
+#: extend/array.options.php:144
+msgid "Main Font"
+msgstr ""
+
+#: extend/array.options.php:149
+msgid ""
+"This is the general font of your site. It is used for the general text, "
+"headings, buttons"
+msgstr ""
+
+#: extend/array.options.php:154
+msgid "Font Pair"
+msgstr ""
+
+#: extend/array.options.php:159
+msgid ""
+"This is the font pair of your site. It is used in some sections such as "
+"footer, menu, etc"
+msgstr ""
+
+#: extend/array.options.php:164
+msgid "Letter Font"
+msgstr ""
+
+#: extend/array.options.php:169
+msgid "This font is used only in the letter section"
+msgstr ""
+
+#: extend/array.options.php:174
+msgid "Text Size"
+msgstr ""
+
+#: extend/array.options.php:179
+msgid "Changing your text size will automatically adapt your heading size also"
+msgstr ""
+
+#: extend/array.options.php:183
+msgid "Text Style"
+msgstr ""
+
+#: extend/array.options.php:189
+msgid ""
+"Changing your text style will automatically adapt your heading style also"
+msgstr ""
+
+#: extend/array.options.php:192
+msgid "Font Subset"
+msgstr ""
+
+#: extend/array.options.php:205
+msgid ""
+"Make sure the fonts you use on the website support these special characters."
+msgstr ""
+
+#: extend/array.options.php:212
+msgid "Petition Settings"
+msgstr ""
+
+#: extend/array.options.php:215
+msgid "Set up your petition details in this section"
+msgstr ""
+
+#: extend/array.options.php:219
+msgid "Petition Type"
+msgstr ""
+
+#: extend/array.options.php:223
+msgid "Choose a petition type: with or without a target petitioners number"
+msgstr ""
+
+#: extend/array.options.php:226
+msgid "Standard Petition"
+msgstr ""
+
+#: extend/array.options.php:227 extend/array.options.php:231
+msgid "Needed Petitioners"
+msgstr ""
+
+#: extend/array.options.php:235
+msgid "Enter how many petitioners you need in order to send out the petition"
+msgstr ""
+
+#: extend/array.options.php:240
+msgid "Petitioniers Needed Counter"
+msgstr ""
+
+#: extend/array.options.php:244
+msgid ""
+"Enter the petitioniers counter text. You can use special strings such as: "
+"{{NEEDED}} - Petitioners Needed, {{TOTAL}} - Total Petitioners"
+msgstr ""
+
+#: extend/array.options.php:245
+msgid "With {{COUNT}} Supporters"
+msgstr ""
+
+#: extend/array.options.php:248
+msgid "Petitioniers Needed Banner"
+msgstr ""
+
+#: extend/array.options.php:252
+msgid ""
+"Enter the petitioniers banner text. You can use special strings such as: "
+"{{NEEDED}} - Petitioners Needed, {{TOTAL}} - Total Petitioners"
+msgstr ""
+
+#: extend/array.options.php:253
+msgid "We still need {{NEEDED}} Supporters"
+msgstr ""
+
+#: extend/array.options.php:256
+msgid "Validation Email Subject"
+msgstr ""
+
+#: extend/array.options.php:260
+msgid "Enter your validation email title"
+msgstr ""
+
+#: extend/array.options.php:261 extend/classes/class.petitions.php:339
+msgid "Confirm your petition signature"
+msgstr ""
+
+#: extend/array.options.php:264
+msgid "Validation Email Body"
+msgstr ""
+
+#: extend/array.options.php:268
+msgid ""
+"Enter your validation email body. You can use special strings such as: "
+"{{NAME}} - Petitioner Name, {{COUNTER}} - Petitioners Counter, {{PETITION}} "
+"- Petition Name"
+msgstr ""
+
+#: extend/array.options.php:269
+msgid ""
+"Hello {{NAME}},\n"
+"\n"
+"Thank you for signing our petition! We already have [COUNTER] supporters. "
+"You can be our next supporter for {{PETITION}} and we are one step closer to "
+"our goal.\n"
+"\n"
+"Please complete the process by confirming your e-mail address. Click on this "
+"link or paste it in your browser: {{ACTIVATION}}\n"
+"\n"
+"Thank you for your support,\n"
+"{{PETITION}}"
+msgstr ""
+
+#: extend/array.options.php:279
+msgid "Confirmation Email Subject"
+msgstr ""
+
+#: extend/array.options.php:283
+msgid "Enter your confirmation email title"
+msgstr ""
+
+#: extend/array.options.php:284 extend/classes/class.petitions.php:492
+msgid "Thank you for your support"
+msgstr ""
+
+#: extend/array.options.php:287
+msgid "Confirmation Email Body"
+msgstr ""
+
+#: extend/array.options.php:291
+msgid ""
+"Enter your confirmation email body. You can use special strings such as: "
+"{{NAME}} - Petitioner Name, {{ID}} - Petitioner Unique ID, {{PETITION}} - "
+"Petition Name"
+msgstr ""
+
+#: extend/array.options.php:292
+msgid ""
+"Hello {{NAME}},\n"
+"\n"
+"Thank you for confirming your e-mail address and showing support for "
+"\"[PETITION]\". Congratulations for being awesome and for being our {{ID}} "
+"supporter.\n"
+"\n"
+"If you want, you can put a face to the name in our list of supporters. "
+"Create a Gravatar account with this e-mail address, upload your picture and "
+"it will be displayed next to your name. You can create a Gravatar here: "
+"http://www.gravatar.com\n"
+"\n"
+"Thank you for your support,\n"
+"{{PETITION}}"
+msgstr ""
+
+#: extend/array.options.php:302
+msgid "Petition Comments"
+msgstr ""
+
+#: extend/array.options.php:306
+msgid "Choose a type of comments for your petition"
+msgstr ""
+
+#: extend/array.options.php:308
+msgid "Disable Comments"
+msgstr ""
+
+#: extend/array.options.php:309
+msgid "Default WordPress"
+msgstr ""
+
+#: extend/array.options.php:310
+msgid "Disqus Forum"
+msgstr ""
+
+#: extend/array.options.php:311
+msgid "Facebook Comments"
+msgstr ""
+
+#: extend/array.options.php:316
+msgid "Validation Error - Email"
+msgstr ""
+
+#: extend/array.options.php:320
+msgid "Enter your email validation error text"
+msgstr ""
+
+#: extend/array.options.php:321 extend/classes/class.petitions.php:358
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: extend/array.options.php:324
+msgid "Validation Error - First Name"
+msgstr ""
+
+#: extend/array.options.php:328
+msgid "Enter your First Name validation error text"
+msgstr ""
+
+#: extend/array.options.php:329 extend/classes/class.petitions.php:365
+msgid "Please enter your first name."
+msgstr ""
+
+#: extend/array.options.php:332
+msgid "Validation Error - Last Name"
+msgstr ""
+
+#: extend/array.options.php:336
+msgid "Enter your Last Name validation error text"
+msgstr ""
+
+#: extend/array.options.php:337 extend/classes/class.petitions.php:372
+msgid "Please enter your last name."
+msgstr ""
+
+#: extend/array.options.php:340
+msgid "Validation Error - Message"
+msgstr ""
+
+#: extend/array.options.php:344
+msgid "Enter your message validation error text"
+msgstr ""
+
+#: extend/array.options.php:345 extend/classes/class.petitions.php:379
+msgid "Please tell us why you are signing this petition."
+msgstr ""
+
+#: extend/array.options.php:348
+msgid "Validation Error - Already Signed"
+msgstr ""
+
+#: extend/array.options.php:352
+msgid "Enter your Already Signed error text"
+msgstr ""
+
+#: extend/array.options.php:353 extend/classes/class.petitions.php:394
+#: extend/classes/class.petitions.php:404
+#: extend/classes/class.petitions.php:426
+msgid "Kudos! You already signed this petition!"
+msgstr ""
+
+#: extend/array.options.php:356
+msgid "Validation Confirmation - Success"
+msgstr ""
+
+#: extend/array.options.php:360
+msgid "Enter your confirmation email text"
+msgstr ""
+
+#: extend/array.options.php:361 extend/classes/class.petitions.php:413
+msgid ""
+"Thank you very much for signing our petition! We sent you a confirmation "
+"email. Please click on the confirmation link in order to validate your "
+"signature."
+msgstr ""
+
+#: extend/array.options.php:364
+msgid "Disqus Forum Name"
+msgstr ""
+
+#: extend/array.options.php:368
+msgid "Type in your Disqus username"
+msgstr ""
+
+#: extend/array.options.php:372
+msgid "Facebook Username"
+msgstr ""
+
+#: extend/array.options.php:376
+msgid "Type in your Facebook username"
+msgstr ""
+
+#: extend/class.init.php:191
+msgid "Share Petition on Facebook"
+msgstr ""
+
+#: extend/class.init.php:192
+msgid "Tweet this Petition"
+msgstr ""
+
+#: extend/class.init.php:193
+msgid "Share Petition on Google+"
+msgstr ""
+
+#: extend/class.init.php:194
+msgid "Share Petition on LinkedIn"
+msgstr ""
+
+#: extend/class.init.php:195
+msgid "E-mail this Petition"
+msgstr ""
+
+#: extend/class.init.php:568
+msgid "Footer"
+msgstr ""
+
+#: extend/class.init.php:574
+msgid "Use the text widgets to add as many petition recipients as needed."
+msgstr ""
+
+#: extend/classes/class.comments.php:44
+msgid "Leave Comment"
+msgstr ""
+
+#: extend/classes/class.comments.php:52
+msgid "Submit Comment"
+msgstr ""
+
+#: extend/classes/class.comments.php:54
+#, php-format
+msgid "You are logged in as %1$s. %2$sLog out &raquo;%3$s"
+msgstr ""
+
+#: extend/classes/class.comments.php:56
+msgid "Log Out"
+msgstr ""
+
+#: extend/classes/class.comments.php:59
+msgid "<b>Comment</b> ( * )"
+msgstr ""
+
+#: extend/classes/class.comments.php:59
+msgid "Comment"
+msgstr ""
+
+#: extend/classes/class.comments.php:66
+msgid "Name"
+msgstr ""
+
+#: extend/classes/class.comments.php:68
+msgid "Email"
+msgstr ""
+
+#: extend/classes/class.comments.php:71
+msgid "Website"
+msgstr ""
+
+#: extend/classes/class.comments.php:86
+msgid "Pingback:"
+msgstr ""
+
+#: extend/classes/class.comments.php:86
+msgid "(Edit)"
+msgstr ""
+
+#: extend/classes/class.comments.php:106
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: extend/classes/class.comments.php:120
+msgid "Reply"
+msgstr ""
+
+#: extend/classes/class.comments.php:122
+msgid "<i class=\"fa fa-pencil\"></i> Edit"
+msgstr ""
+
+#: extend/classes/class.comments.php:126
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: extend/classes/class.petitions.php:48
+msgid "User Signature"
+msgstr ""
+
+#: extend/classes/class.petitions.php:61
+msgid "Signature"
+msgstr ""
+
+#: extend/classes/class.petitions.php:169
+msgid "With {{COUNT}} supporters"
+msgstr ""
+
+#: extend/classes/class.petitions.php:209
+#: extend/classes/class.petitions.php:227
+msgid "{{NEEDED}} needed to reach {{TOTAL}}"
+msgstr ""
+
+#: extend/classes/class.petitions.php:269
+msgid "Petitioneer"
+msgstr ""
+
+#: extend/classes/class.petitions.php:279
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: extend/classes/class.petitions.php:311
+msgid ""
+"Hello {{NAME}},\n"
+"\n"
+"Thank you for signing our petition! We already have {{COUNTER}} supporters. "
+"You can be our next supporter for {{PETITION}} and we are one step closer to "
+"our goal.\n"
+"\n"
+"Please complete the process by confirming your e-mail address. Click on this "
+"link or paste it in your browser: {{ACTIVATION}}\n"
+"\n"
+"Thank you for your support,\n"
+"{{PETITION}}"
+msgstr ""
+
+#: extend/classes/class.petitions.php:464
+msgid ""
+"Thank you very much for signing our petition! You have successfully "
+"committed to our cause."
+msgstr ""
+
+#: extend/classes/class.petitions.php:469
+msgid ""
+"Hello {{NAME}},\n"
+"\n"
+"Thank you for confirming your e-mail address and showing support for "
+"\"{{PETITION}}\". Congratulations for being awesome and for being our {{ID}} "
+"supporter.\n"
+"\n"
+"If you want, you can put a face to the name in our list of supporters. "
+"Create a Gravatar account with this e-mail address, upload your picture and "
+"it will be displayed next to your name. You can create a Gravatar here: "
+"http://www.gravatar.com\n"
+"\n"
+"Thank you for your support,\n"
+"{{PETITION}}"
+msgstr ""
+
+#: extend/classes/class.petitions.php:513
+msgid "E-mail Address"
+msgstr ""
+
+#: extend/classes/class.petitions.php:516
+msgid "First Name"
+msgstr ""
+
+#: extend/classes/class.petitions.php:519
+msgid "Last Name"
+msgstr ""
+
+#: extend/classes/class.petitions.php:522
+msgid "Why is this important to you?"
+msgstr ""
+
+#: extend/classes/class.petitions.php:525
+msgid "Sign Petition!"
+msgstr ""
+
+#: extend/classes/class.render.css.php:390
+msgid "OR"
+msgstr ""
+
+#: framework/classes/class.ips.php:327 framework/classes/class.ips.php:329
+msgid "Upload Image"
+msgstr ""
+
+#: framework/classes/class.ips.php:328
+msgid "Insert Image"
+msgstr ""
+
+#: framework/classes/class.ips.php:330
+msgid "Clear Image"
+msgstr ""
+
+#: framework/classes/class.ips.php:342 framework/classes/class.ips.php:344
+msgid "Upload Video"
+msgstr ""
+
+#: framework/classes/class.ips.php:343
+msgid "Insert Video"
+msgstr ""
+
+#: framework/classes/class.ips.php:345
+msgid "Clear Video"
+msgstr ""
+
+#: framework/classes/class.page.bg.php:27
+msgid "Page Background"
+msgstr ""
+
+#: framework/classes/class.page.bg.php:51
+msgid "Choose one of our custom backgrounds:"
+msgstr ""
+
+#: framework/classes/class.page.bg.php:57
+msgid "Custom Background Image"
+msgstr ""
+
+#: framework/classes/class.page.bg.php:58
+msgid "Upload Custom Image"
+msgstr ""
+
+#: framework/classes/class.page.bg.php:59
+msgid "Clear Custom Background"
+msgstr ""
+
+#: framework/classes/class.page.gallery.php:27
+msgid "Page Gallery"
+msgstr ""
+
+#: framework/classes/class.page.gallery.php:45
+msgid "Choose the images that you want to display as an image gallery:"
+msgstr ""
+
+#: framework/classes/class.page.gallery.php:60
+msgid "Select Images"
+msgstr ""
+
+#: framework/classes/class.page.gallery.php:61
+msgid "Clear Gallery"
+msgstr ""
+
+#: template-parts/page-petition.php:48
+msgid "Petition by,"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "WeChange"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://demo.curlythemes.com/wechange"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Equestrian is a premium WordPress theme dedicated to the equestrian industry."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Curly Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.curlythemes.com"
+msgstr ""

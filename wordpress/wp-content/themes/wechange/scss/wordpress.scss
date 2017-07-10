@@ -1,0 +1,340 @@
+/** Editor Defaults */
+.alignleft{
+	float: left;
+	margin-right: 2.8rem;
+	margin-bottom: 1.4rem;
+}
+.alignright{
+	float: right;
+	margin-left: 2.8rem;
+	margin-bottom: 1.4rem;
+}
+.alignnone{
+	clear: both;
+}
+.aligncenter{
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.featured-image{
+	margin-bottom: 2.8rem;
+}
+
+/** Screen Reader */
+.screen-reader-text{
+	position: absolute !important;
+    left: -999em;
+}
+
+/** Calendar */
+#wp-calendar{
+	width: 100%; 
+	text-align: center;
+	
+	thead{
+		th{
+			border: none; 
+			border-bottom-width: 3px;
+			border-bottom-style: solid;
+			padding: 0.5rem 0 1.5rem;
+			text-align: inherit;
+		}
+	}
+	tfoot{
+		td{
+			padding: 1rem 0 0.5rem;
+		}
+	}
+	tbody{
+		td{
+			text-align: center; 
+			border-bottom-width: 1px;
+			border-bottom-style: solid; 
+			line-height: 2em; 
+			transition: background 0.15s ease;
+			
+			a{
+				display: block; text-decoration: none;
+			}
+		}
+	}
+	caption{
+		cursor: pointer; 
+		text-transform: uppercase; 
+		margin: 0; 
+		padding: 12px; 
+		outline: 0 none !important; 
+		font-weight: bold;
+		border-top-left-radius: 2px;
+		border-top-right-radius: 2px;
+	}
+	#next{
+		text-align: right;
+	}
+}
+
+/** Posts Pagination */
+.pagination{
+	padding-top: $line-height * 4rem;
+	
+	.nav-links{
+		display: inline-block;
+		text-align: center;
+		
+		.page-numbers{
+			display: inline-block;
+			padding: 0.7rem 1.4rem;
+			position: relative;
+		}
+		:first-child{
+			border-top-left-radius: 2px;
+			border-bottom-left-radius: 2px;
+		}
+		:last-child{
+			border-top-right-radius: 2px;
+			border-bottom-right-radius: 2px;
+			margin-right: 0;
+			border-right: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		.current + a{
+			border-left: none;
+		}
+	}
+}
+@media (max-width: $screen-xs-max) {
+	.pagination{
+		.nav-links{
+			max-width: 100%;
+			margin: 0 auto;
+		}
+	}
+}
+
+
+/** Post Navigation */
+.post-navigation{
+	margin: 7rem 0;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	
+	.nav-links{
+		display: table;
+		width: 100%;
+		table-layout: fixed;
+		border-color: inherit;
+		
+		div{
+			display: table-cell;
+			width: 50%;
+			padding: 2.8rem 2.4rem 5.6rem;
+			position: relative;
+			border-right-width: 1px;
+			border-right-style: solid;
+			border-right-color: inherit;
+			
+			&:last-child{
+				border-right: none;
+			}
+			&.nav-next{
+				text-align: right;
+				padding-left: 2.8rem;
+				
+				&::before{
+					content: '\f178';
+					font-family: 'FontAwesome';
+					display: inline-block;
+					position: absolute;
+					right: 0;
+				}
+			}
+			
+			&.nav-previous{
+				padding-right: 2.8rem;
+				
+				&::before{
+					content: '\f177';
+					font-family: 'FontAwesome';
+					display: inline-block;
+					position: absolute;
+					left: 0;
+				}
+			}
+		}
+	}
+}
+@media (max-width: $screen-xs-max) {
+	.post-navigation{
+		.nav-links{
+			div{
+				width: 100%;
+				border-right: none;
+				display: block;
+				padding-right: 25% !important;
+				
+				&.nav-next{
+					padding-top:0;
+					text-align: left;
+					
+					&::before{
+						content: '\f178';
+						font-family: 'FontAwesome';
+						display: inline-block;
+						position: absolute;
+						left: 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+/**
+ * Widgets
+ * -----------------------------------------------------------------------------
+ */
+ 
+.sidebar-widget{
+	margin-bottom: 2.8rem;
+}
+.sidebar-widget ul{
+	margin: 0;
+	padding: 0;
+	list-style-position: inside;
+	list-style: none;
+}
+.sidebar-widget li{
+	padding: 0.7rem 0 0.7rem 1.4rem;
+	border-bottom: 1px solid;
+	position: relative;
+}
+.sidebar-widget li::before{
+	content: '\f105';
+	font-family: "FontAwesome";
+	position: absolute;
+	left: 0;
+}
+.sidebar-widget li:last-of-type{
+	border-bottom: none;
+}
+.sidebar-widget ul ul{
+	margin-top: 0.7rem;
+}
+.sidebar-widget ul ul li:first-of-type{
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+.sidebar-widget ul ul li:last-of-type{
+	padding-bottom: 0;
+}
+.widget_rss .widget-title .rsswidget:first-of-type img{
+	display: none;
+}
+.widget_rss .widget-title .rsswidget:first-of-type::before{
+	content: '\f143';
+	font-family: 'FontAwesome';
+	font-size: 100%;
+	color: #FD6720;
+}
+.widget_rss cite{
+	font-weight: normal;
+	display: block;
+	padding-top: 5px;
+}
+.widget_rss cite:before{
+	content: '\f105';
+	font-family: 'FontAwesome';
+	margin-right: 5px;
+	font-size: 14px;
+}
+.widget_rss ul{
+	list-style: none;
+}
+.widget_rss li{
+	margin-bottom: 1.4rem;
+}
+.widget_rss li:last-of-type{
+	margin-bottom: 0;
+}
+.widget_rss li > .rsswidget{
+	display: block;
+	font-weight: bold;
+}
+.widget_rss li > .rss-date{
+	display: block;
+	font-size: 85%;
+	opacity: .65;
+}
+.widget_search .screen-reader-text{
+	display: none;
+}
+.widget_search label{
+	display: block;
+}
+.widget_search .search-field,
+input[type=text]#s,
+#bbp_search{
+	background-position: center right;
+	background-repeat: no-repeat;
+	background-size:  27px;
+	padding-right: 35px;
+	font-weight: normal;
+	width: 100%;
+	display: block;
+	min-height: 32px;
+	padding-left: 10px;
+	border:none;
+	font-size: 85%;
+	line-height: 32px;
+}
+.widget_search .search-submit{
+	display: none;
+}
+
+.sticky{
+	position: relative;
+}
+
+.tags,
+.tags a{
+	color: inherit;
+}
+.tags a:hover{
+	color: inherit;
+	opacity: 0.75;
+}
+
+
+/**** Transitions ****/
+
+.masonry,
+.masonry .masonry-brick {
+  -webkit-transition-duration: 0.7s;
+     -moz-transition-duration: 0.7s;
+      -ms-transition-duration: 0.7s;
+       -o-transition-duration: 0.7s;
+          transition-duration: 0.7s;
+}
+
+.masonry {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.masonry .masonry-brick {
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+}
