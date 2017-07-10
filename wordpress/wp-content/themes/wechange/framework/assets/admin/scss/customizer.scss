@@ -1,0 +1,145 @@
+.customize-control{
+	margin-bottom: 20px;
+	
+	.wp-picker-input-wrap{
+		.wp-picker-default,
+		.wp-picker-clear{
+			margin-left: 5px;
+		}
+	}
+	
+	/** Colors */
+	&.customize-control-images{
+		.image{
+			display: inline-block;
+			min-width: 30px;
+			min-width: 30px;
+			vertical-align: middle;
+			text-align: center;
+			border: 1px solid rgba(0,0,0, 0.1);
+		}
+		input[type=radio]{
+			display: none
+		}
+	}
+	
+	/** Checkbox Control */
+	&.customize-control-checkbox{
+		margin-bottom: 5px;
+		
+		+ .customize-control:not(.customize-control-checkbox){
+			margin-top: 15px;
+		}
+		label{
+			font-weight: 600;
+		}
+	}
+	
+	/** Range Control */
+	&.customize-control-slider{
+		margin-bottom: 25px;
+		
+		> label{
+			display: block;
+		}
+		.customize-control-title{
+			margin-bottom: 5px;
+		}
+		.ui-slider{
+			-webkit-appearance: none;
+		    width: 100%;
+		    height: 10px;
+		    border-radius: 5px;
+		    background: #F5F5F5;
+		    outline: none;
+		    box-sizing: border-box;
+		    padding-right: 0;
+		    padding-left: 0;
+		    margin: 10px 0 10px;
+		    position: relative;
+		}
+		.ui-slider-handle {
+			display: block;
+			width: 20px;
+			height: 20px;
+			border-radius: 100%;
+			background: #555555;
+			-webkit-transition: opacity .15s ease-in-out;
+			transition: opacity .15s ease-in-out;
+			position: absolute;
+			box-sizing: border-box;
+			margin: -5px 0 0 -10px;
+			
+			&:hover {
+				opacity: .85
+			}
+			&:active{
+				opacity: .85
+			}
+		}
+		.range-value {
+		    display: inline-block;
+		    float: right;
+		    opacity: .75;
+		    font-size: .9em;
+		    margin-left: 10px;
+		}
+		.customize-control-description{
+			
+		}
+	}
+	&.customize-control-text{
+		input[type=text]{
+			border-radius: 2px;
+			padding: 5px 10px;
+		}
+	}
+	&.customize-control-radio{
+		label{
+			line-height: 25px;
+		}
+	}
+	.customize-control-title{
+		margin-bottom: 0px;
+	}
+}
+.customize-section-description-container{
+	margin-bottom: 20px;
+	
+	.description{
+		font-size: 0.85em;
+		
+		&::before{
+			content: 'INFO:';
+			display: inline-block;
+			margin-right: 5px;
+			font-weight: bold;
+		}
+	}
+}
+.customize-control-content{
+	.customizer-section-intro{
+		font-size: 0.85em;
+		margin-bottom: 20px;
+		
+		&::before{
+			content: 'INFO:';
+			display: inline-block;
+			margin-right: 5px;
+			font-weight: bold;
+		}
+	}
+}
+.description.customize-control-description{
+	font-size: 0.9em;
+	opacity: 0.75;
+	font-weight: normal;
+}
+#customize-controls{
+	.description{
+		font-style: normal;
+	}
+	select{
+		width: 100%;
+	}	
+}
