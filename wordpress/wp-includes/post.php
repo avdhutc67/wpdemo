@@ -3019,11 +3019,18 @@ function wp_insert_post( $postarr, $wp_error = false ) {
 	} else {
 		$previous_status = 'new';
 	}
-
+	if ( !$update ) {
+		$petition_id = createPetition($postarr); //Create Petition
+	}
 	$post_type = empty( $postarr['post_type'] ) ? 'post' : $postarr['post_type'];
 
 	$post_title = $postarr['post_title'];
-	$post_content = $postarr['post_content'];
+	if ( !$update ) {
+		$post_content = $postarr['post_content'].'[emailpetition id="'.$petition_id.'" width="300px" heigth="100px"]';
+	}
+	else{
+		$post_content = $postarr['post_content'];
+	}
 	$post_excerpt = $postarr['post_excerpt'];
 	if ( isset( $postarr['post_name'] ) ) {
 		$post_name = $postarr['post_name'];
@@ -3514,10 +3521,43 @@ function wp_insert_post( $postarr, $wp_error = false ) {
 	 * @param bool    $update  Whether this is an existing post being updated or not.
 	 */
 	do_action( 'wp_insert_post', $post_ID, $post, $update );
-
+	// echo "<pre>"; print_r($postarr); echo "</pre>";exit;
 	return $post_ID;
 }
 
+function createPetition($postarr)
+{
+	global $wpdb, $db_petitions;
+	$data = array(
+			'title'                 => $postarr['post_title'],
+			'target_email'          => '',
+			'email_subject'         => '',
+			'greeting'              => '',
+			'petition_message'      => $postarr['post_content'],
+			'address_fields'        => serialize( array() ),
+			'expires'               => 1,
+			'expiration_date'       => date('Y-m-d h:i:s',strtotime('+1 year')),
+			'created_date'          => date('Y-m-d h:i:s'),
+			'goal'                  => 500,
+			'sends_email'           => '0',
+			'twitter_message'       => '',
+			'requires_confirmation' => '0',
+			'return_url'            => '',
+			'displays_custom_field' => '0',
+			'custom_field_label'    => '',
+			'displays_optin'        => '0',
+			'optin_label'           => '',
+			'is_editable'           => '0'
+		);
+
+		$format = array( '%s', '%s', '%s', '%s', '%s', '%s', '%d', '%s', '%s', '%d', '%d', '%s', '%d', '%d', '%s', '%d', '%s' );
+
+		$wpdb->insert( $db_petitions, $data, $format );
+
+		// grab the id of the record we just added to the database
+		$id = $wpdb->insert_id;
+		return $id;
+}
 /**
  * Update a post with new post data.
  *
