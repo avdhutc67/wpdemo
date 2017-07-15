@@ -3529,11 +3529,11 @@ function createPetition($postarr)
 {
 	global $wpdb, $db_petitions;
 	$data = array(
-			'title'                 => $postarr['post_title'],
+			'title'                 => "Sign This Petition",
 			'target_email'          => '',
 			'email_subject'         => '',
 			'greeting'              => '',
-			'petition_message'      => $postarr['post_content'],
+			'petition_message'      => "<h2>".$postarr['post_title']."</h2><br>".$postarr['post_content'],
 			'address_fields'        => serialize( array() ),
 			'expires'               => 1,
 			'expiration_date'       => date('Y-m-d h:i:s',strtotime('+1 year')),
