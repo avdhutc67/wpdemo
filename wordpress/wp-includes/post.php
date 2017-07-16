@@ -3025,7 +3025,25 @@ function wp_insert_post( $postarr, $wp_error = false ) {
 	$post_type = empty( $postarr['post_type'] ) ? 'post' : $postarr['post_type'];
 
 	$post_title = $postarr['post_title'];
+
 	if ( !$update ) {
+		if(str_word_count( $postarr['post_content'] ) >= 30)
+		{	
+			$toinsert="<!--more-->";
+			$post_content_array = $postarr['post_content'];
+			$tok=strtok($post_content_array, " ");
+			$s2='';
+			for ($i=1; $tok!==false; $i++) {
+				//echo $tok;
+			    $s2.=$tok.' '.(($i == 30) ? $toinsert : '');
+			    $tok=strtok(" ");
+			}
+
+			$postarr['post_content'] = $s2;
+		}else{
+			$postarr['post_content'] = $postarr['post_content']."<!--more-->";
+		}
+		// echo $postarr['post_content'];exit;
 		$post_content = $postarr['post_content'].'[emailpetition id="'.$petition_id.'" width="300px" heigth="100px"]';
 	}
 	else{
