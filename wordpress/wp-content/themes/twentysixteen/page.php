@@ -18,6 +18,7 @@ get_header(); ?>
 		<?php
 		// Start the loop.
 		while ( have_posts() ) : the_post();
+					the_excerpt();
 
 			// Include the page content template.
 			get_template_part( 'template-parts/content', 'page' );
